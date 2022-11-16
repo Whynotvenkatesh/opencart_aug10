@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-15T08:16:39 IST" name="opencartSuite" finished-at="2022-11-15T08:17:10 IST" duration-ms="31125">
+    <groups>
+      <group name="Master">
+        <method signature="TC_001_AccountRegistration.test_accountregistration()[pri:0, instance:testCases.TC_001_AccountRegistration@38d8f54a]" name="test_accountregistration" class="testCases.TC_001_AccountRegistration"/>
+        <method signature="TC_002_Logintest.test_login()[pri:0, instance:testCases.TC_002_Logintest@4c371370]" name="test_login" class="testCases.TC_002_Logintest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC_002_Logintest.test_login()[pri:0, instance:testCases.TC_002_Logintest@4c371370]" name="test_login" class="testCases.TC_002_Logintest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC_001_AccountRegistration.test_accountregistration()[pri:0, instance:testCases.TC_001_AccountRegistration@38d8f54a]" name="test_accountregistration" class="testCases.TC_001_AccountRegistration"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2022-11-15T08:16:39 IST" name="opencartTest" finished-at="2022-11-15T08:17:10 IST" duration-ms="31125">
+      <class name="testCases.TC_002_Logintest">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:testCases.TC_002_Logintest@4c371370]" started-at="2022-11-15T08:16:47 IST" name="set" finished-at="2022-11-15T08:16:49 IST" duration-ms="2191" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test_login()[pri:0, instance:testCases.TC_002_Logintest@4c371370]" started-at="2022-11-15T08:16:49 IST" name="test_login" finished-at="2022-11-15T08:17:10 IST" duration-ms="20725" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.fail(Assert.java:115)
+at testCases.TC_002_Logintest.test_login(TC_002_Logintest.java:44)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_002_Logintest@4c371370]" started-at="2022-11-15T08:17:10 IST" name="teardown" finished-at="2022-11-15T08:17:10 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_002_Logintest -->
+      <class name="testCases.TC_001_AccountRegistration">
+        <test-method is-config="true" signature="set(java.lang.String)[pri:0, instance:testCases.TC_001_AccountRegistration@38d8f54a]" started-at="2022-11-15T08:16:39 IST" name="set" finished-at="2022-11-15T08:16:42 IST" duration-ms="3376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- set -->
+        <test-method signature="test_accountregistration()[pri:0, instance:testCases.TC_001_AccountRegistration@38d8f54a]" started-at="2022-11-15T08:16:42 IST" name="test_accountregistration" finished-at="2022-11-15T08:16:47 IST" duration-ms="4068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_accountregistration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testCases.TC_001_AccountRegistration@38d8f54a]" started-at="2022-11-15T08:16:47 IST" name="teardown" finished-at="2022-11-15T08:16:47 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.TC_001_AccountRegistration -->
+    </test> <!-- opencartTest -->
+  </suite> <!-- opencartSuite -->
+</testng-results>
